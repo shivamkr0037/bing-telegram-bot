@@ -6,11 +6,11 @@ from telebot.async_telebot import AsyncTeleBot
 from EdgeGPT import Chatbot
 
 # Insert your Bot token
-BOT_TOKEN = '<INSERT YOUR TELEGRAM BOT TOKEN>'
+BOT_TOKEN = '<6283505564:AAHofRWeAZ0LbKbRaIADQX-LYig-xONHiss>'
 bot = AsyncTeleBot(BOT_TOKEN)
 
 # Add your telegram id to the list without @ symbol
-authorized_id = ['<INSERT YOUR TELEGRAM USER NAME, NOT THE DISPLAY NAME>']
+authorized_id = ['<maxxify>']
 
 
 async def bingChat(prompt, is_ref=False):
